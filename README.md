@@ -7,6 +7,8 @@ select customers.customerName, offices.city as office_city from customers, emplo
 2. Add row counts to the subexpressions
 3. Rewrite to a better expression
 
+
+
 1. Rewritting the query to algebra relation in jupyter notebook. Select the markdown and put the query between 2 dollarsign $.
 
 ρofficecity/office.city(σsalesRepEmployeeNumber=employeeNumber(customers122×(employees23⋈offices7)))ρofficecity/office.city(σsalesRepEmployeeNumber=employeeNumber(customers122×(employees23⋈offices7)))
